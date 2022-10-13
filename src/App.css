@@ -1,11 +1,16 @@
-.App {
-  text-align: center;
+html {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: inherit;
+  
 }
+
+body {
+ 
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -23,6 +28,8 @@
   padding: 15px;
   font-size: calc(10px + 2vmin);
 }
+
+
 
 
 

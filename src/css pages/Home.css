@@ -1,0 +1,29 @@
+.home-pages {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+
+h3 {
+  display: flex;
+  text-align: center;
+
+}
+
+.img  {
+  width: 27%;
+  height: 70%;
+}
+
+.img > #me {
+  display: flex;
+  border-radius: 5%;
+  max-height: 100vh;
+  width: 260px;
+  height: 350px;
+}
