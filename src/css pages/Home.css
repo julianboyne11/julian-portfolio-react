@@ -10,12 +10,14 @@
 
 
 h1 {
+  font-family: 'Share Tech Mono', monospace;
   font-size: 60px;
   text-align: center;
 }
 
 h3 {
-  font-size: 25px;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
   display: flex;
   text-align: center;
 
