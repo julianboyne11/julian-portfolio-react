@@ -1,6 +1,23 @@
+.project-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px;
+}
+
+.project-container > ul {
+  display: flex;
+  justify-content: center;
+}
+
 ul {
+  padding: 10px;
   display: flex;
   flex-direction: column;
+  border: 1px solid white;
+  width: 600px;
+
 }
 
 h1 {
@@ -11,22 +28,33 @@ h2 {
   color:  white;
 }
 
+h3 {
+  color: white;
+}
+
+ul > .members {
+  margin: 2px;
+}
+
 p {
   color: white;
   width: 500px;
 }
 
-a {
+.project-link {
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
 
-a:hover {
+.project-link:hover {
   font-size: 20px;
 }
 
-img {
+.project-container >img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-height: 450px;
   max-width: 500px;
 }
