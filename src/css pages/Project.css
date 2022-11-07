@@ -48,7 +48,8 @@ p {
 }
 
 .project-link:hover {
-  font-size: 20px;
+  font-size: 17px;
+  color: #F96E4E;
 }
 
 .project-container >img {

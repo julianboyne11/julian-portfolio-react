@@ -31,3 +31,8 @@ nav {
   padding: 20px;
   color: white;
 }
+
+.App-link:hover {
+  color: #F96E4E;
+  font-size: 32px;
+}
