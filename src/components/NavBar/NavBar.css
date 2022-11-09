@@ -47,6 +47,10 @@ nav {
     margin: 0;
   }
 
+  .App-link {
+    font-size: 28px;
+  }
+
   #contact {
     display: none;
   }

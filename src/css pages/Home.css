@@ -41,3 +41,17 @@ h1 {
   width: 260px;
   height: 350px;
 }
+
+@media only screen and (max-width: 800px) {
+  .home-page {
+    width: 100%;
+  }
+
+  #name {
+    font-size: 60px;
+  }
+
+  #title {
+    font-size: 30px;
+  }
+}
