@@ -44,11 +44,16 @@ nav {
   }
 
   nav {
+    width: 100%;
     margin: 0;
   }
 
   .App-link {
-    font-size: 24px;
+    font-size: 20px;
+  }
+
+  .App-link:hover {
+    font-size: 21px;
   }
 
   #contact {
