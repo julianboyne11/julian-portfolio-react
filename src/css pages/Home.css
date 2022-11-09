@@ -15,8 +15,10 @@ h1 {
   text-align: center;
 }
 
-h3 {
+#title {
   font-family: 'Staatliches', cursive;
+  color: #F96E4E;
+  margin:0;
   font-size: 30px;
   display: flex;
   text-align: center;

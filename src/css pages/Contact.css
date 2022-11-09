@@ -1,4 +1,20 @@
 .icon {
   height: 50px;
-
 }
+
+#root > {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  height: 60%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

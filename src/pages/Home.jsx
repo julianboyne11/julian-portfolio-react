@@ -1,11 +1,24 @@
 import "../css pages/Home.css"
+import Contact from "./Contact";
+import Projects from "./Projects";
+import About from "./About";
 
 const Home = () => {
   return (
-  <div className="home-page">
-    <h1>Julian Boyne</h1>
-    <h3>Software Engineer</h3>
-  </div>
+    <>
+      <br /><br /><br /><br /><br /><br /><br />
+      <div className="home-page">
+        <h1>Julian Boyne</h1>
+        <h3 id="title">Software Engineer</h3>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <About />
+      <br /><br /><br />
+      <Projects />
+      <br /><br /><br />
+      <Contact/>
+    </>
+
   )
 }
 

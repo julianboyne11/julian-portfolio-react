@@ -1,6 +1,6 @@
 const Project = ({project}) => {
   return ( 
-    <ul>
+    <ul key={project.title}>
     <h2>
       {project.title}
     </h2>
