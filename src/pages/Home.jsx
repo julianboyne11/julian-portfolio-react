@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <br /><br /><br /><br /><br /><br /><br />
       <div className="home-page">
-        <h1>Julian Boyne</h1>
+        <h1 id='name'>Julian Boyne</h1>
         <h3 id="title">Software Engineer</h3>
       </div>
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />

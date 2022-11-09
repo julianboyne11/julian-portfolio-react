@@ -15,11 +15,15 @@ h1 {
   text-align: center;
 }
 
+#name {
+  font-size: 90px;
+}
+
 #title {
   font-family: 'Staatliches', cursive;
   color: #F96E4E;
   margin:0;
-  font-size: 30px;
+  font-size: 40px;
   display: flex;
   text-align: center;
 
