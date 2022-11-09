@@ -10,11 +10,7 @@
 }
 
 
-#root > {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .contact {
   height: 60%;
@@ -31,6 +27,12 @@
     align-items: baseline;
     text-align: center;
     width: 100%;
+  }
+  .contact > .icon {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 }
 
