@@ -84,7 +84,7 @@ ul > p {
     width: 100%;
   }
 
-  img {
+  .project-img {
     max-height: 200px; 
   }
 }

@@ -4,7 +4,7 @@ const Project = ({project}) => {
     <h2>
       {project.title}
     </h2>
-    <img src={project.image} alt="App" />
+    <img className="project-img" src={project.image} alt="App" />
     <p id="description">{project.description}</p>
     <a className="project-link" href={project.repositoryLink}>Git Hub</a><br />
     <a className="project-link" href={project.deploymentLink}>App</a>
