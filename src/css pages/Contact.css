@@ -5,8 +5,6 @@
 
 }
 
-
-
 #github {
   background-color: black;
 }
@@ -26,5 +24,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact > h2 {
+    align-items: baseline;
+    text-align: center;
+    width: 100%;
+  }
 }
 

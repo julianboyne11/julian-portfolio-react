@@ -40,9 +40,9 @@ ul > .members {
   margin: 2px;
 }
 
-p {
+ul > p {
   color: white;
-  width: 500px;
+  width: 100%;
 }
 
 #description {
@@ -70,3 +70,12 @@ p {
   max-width: 500px;
 }
 
+@media only screen and (max-width: 800px) {
+  .project-container > ul {
+    width: 100%;
+  }
+
+  ul > p {
+    width: 100%;
+  }
+}

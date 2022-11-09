@@ -8,7 +8,7 @@ function NavBar() {
           <Link className="App-link" to="/">Julian Boyne</Link>
           <Link className="App-link" to="/about">About Me</Link>
           <Link className="App-link" to="/projects">My Work</Link>
-          <Link className="App-link" to="/contact">Contact Me</Link>
+          <Link className="App-link" to="/contact" id="contact">Contact Me</Link>
         </nav>
       </header>
     )

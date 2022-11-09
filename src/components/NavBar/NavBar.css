@@ -36,3 +36,19 @@ nav {
   color: #F96E4E;
   font-size: 32px;
 }
+
+@media only screen and (max-width: 800px) {
+  .app-header > nav {
+    height: 100%;
+    width: 100%;
+  }
+
+  nav {
+    margin: 0;
+  }
+
+  #contact {
+    display: none;
+  }
+  
+}
