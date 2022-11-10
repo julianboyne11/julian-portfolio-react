@@ -9,7 +9,7 @@ const About = () => {
 
         <img id="me" src="./assets/yo.png" alt="Julian" /><br />
       <hr />
-      <h3>A food and beverage service provider that turned around to a full stack developer. Who works great in teams by being the example and motivating not only myself but the whole crew along with communicating effectively and adapting to any type of situation.</h3>
+      <h3>I'm a full stack developer with experience in the food and beverage industry. I work well in teams by being adaptable, leading by example, motivating myself and others, and communicating effectively. When building apps, I get to exercise envisioning all possible scenarios to tackle problems that I'm solving with all projects.</h3>
     </div>
     </>
   )
