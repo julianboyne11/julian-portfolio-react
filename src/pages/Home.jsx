@@ -11,7 +11,6 @@ const Home = () => {
         <h1 id='name'>Julian Boyne</h1>
         <h3 id="title">Software Engineer</h3>
       </div>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <About />
       <br /><br /><br />
       <Projects />

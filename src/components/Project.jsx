@@ -6,8 +6,6 @@ const Project = ({project}) => {
     </h2>
     <img className="project-img" src={project.image} alt="App" />
     <p id="description">{project.description}</p>
-    <a className="project-link" href={project.repositoryLink}>Git Hub</a><br />
-    <a className="project-link" href={project.deploymentLink}>App</a>
     <div>
       {project.groupMembers?
         <>
@@ -20,6 +18,10 @@ const Project = ({project}) => {
         <>
         </>
       }
+    </div>
+    <div className="links">
+    <a className="project-link" id='git-hub' href={project.repositoryLink}>Git Hub</a><br />
+    <a className="project-link" id='app-link' href={project.deploymentLink}>APP</a>
     </div>
   </ul>
   );

@@ -24,6 +24,7 @@ body, html {
   width: 100%;
 }
 
+
 body {
   overflow: auto;
 } 
@@ -33,3 +34,6 @@ code {
     monospace;
 }
 
+.about-me-container {
+  margin-top: 80%;
+}

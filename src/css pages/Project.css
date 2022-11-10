@@ -25,6 +25,7 @@ ul {
 }
 
 h1 {
+  margin: 10px;
   color: white
 }
 
@@ -55,15 +56,34 @@ ul > p {
   justify-content: center;
 }
 
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .project-link {
+  border: 1px solid grey;
+  border-radius: 7%;
+  width: 100px;
+  text-align: center;
+  font-size: 25px;
   text-decoration: none;
-  color: white;
-  font-weight: bold;
+  color: black;
+
 }
 
 .project-link:hover {
-  font-size: 17px;
+  font-weight: bold;
   color: #F96E4E;
+  border: 1px solid black;
+}
+
+#git-hub {
+  background-color: white;
+}
+
+#app-link {
+  background-color: white;
 }
 
 .project-container >img {
@@ -87,4 +107,6 @@ ul > p {
   .project-img {
     max-height: 200px; 
   }
+
+
 }
