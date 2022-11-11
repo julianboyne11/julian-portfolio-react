@@ -6,11 +6,12 @@ import About from "./About";
 const Home = () => {
   return (
     <>
-      <br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <div className="home-page">
-        <h1 id='name'>Julian Boyne</h1>
-        <h3 id="title">Software Engineer</h3>
+          <h1 id='name'>Julian Boyne</h1>
+          <h3 id="title">Software Engineer</h3>
       </div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <About />
       <br /><br /><br />
       <Projects />
