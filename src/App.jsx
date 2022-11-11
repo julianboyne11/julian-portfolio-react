@@ -4,7 +4,6 @@ import NavBar from './components/NavBar/NavBar';
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
-import Resume from './pages/Resume'
 import Projects from './pages/Projects'
 
 
@@ -19,8 +18,6 @@ function App() {
     <Route path='/contact' element={<Contact />}/>
   </Routes>
   <br /><br /><br />
-  <Resume/>
-  <br /><br />
   </>
   );
 }

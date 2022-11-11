@@ -2,6 +2,7 @@ import "../css pages/Home.css"
 import Contact from "./Contact";
 import Projects from "./Projects";
 import About from "./About";
+import Resume from "./Resume";
 
 const Home = () => {
   return (
@@ -17,6 +18,8 @@ const Home = () => {
       <Projects />
       <br /><br /><br />
       <Contact/>
+      <br /><br />
+      <Resume/>
     </>
 
   )

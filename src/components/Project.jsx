@@ -1,4 +1,8 @@
+
+
 const Project = ({project}) => {
+
+
   return ( 
     <ul key={project.title}>
     <h2>
@@ -23,6 +27,7 @@ const Project = ({project}) => {
     <a className="project-link" id='git-hub' href={project.repositoryLink}>Git Hub</a><br />
     <a className="project-link" id='app-link' href={project.deploymentLink}>APP</a>
     </div>
+  
   </ul>
   );
 }
