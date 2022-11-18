@@ -23,6 +23,13 @@ const projects = [
     deploymentLink: "https://mypropsmanagement.netlify.app/",
     groupMembers: ["Tal Rimoni", "Chris Mems", "Mike Trinh", "Julian Boyne"]
   },
+  {
+    title: "Superhero Collector",
+    description: "A place where you can find, see, and add superheros and checkout in what movies there have been on, and even who are there enemies",
+    image: "https://github.com/julianboyne11/superhero-collector/raw/main/main_app/static/images/Screenshot_20221117_073348.png",
+    repositoryLink: "https://github.com/julianboyne11/superhero-collector",
+    deploymentLink: "https://superhero-collector.herokuapp.com/superheros/"
+  }
 ]
 
 export {projects}
